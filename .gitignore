@@ -10,13 +10,13 @@
 *.pyc
 *ipynb
 
-*.csv
 *.nfs*
 *.coverage*
 *:Zone.Identifier
 
 # work personal folder
 work/
+.vscode/
 
 # R specific
 *.RData
