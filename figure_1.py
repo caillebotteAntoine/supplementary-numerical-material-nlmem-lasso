@@ -1,7 +1,11 @@
 # pylint: skip-file
-# pyright: ignore[reportAttributeAccessIssue]
-
-##############################
+# ========================================== #
+# Generation of Figure 1 in the paper:
+# Trajectories of 5 runs of the algorithm performed on the same dataset for the first
+# four components of β with randomly chosen initializations and three regularization parameters
+# λ leading to (a) over-selection, (b) exact selection of the support and (c) under-selection of the
+# support.
+# ========================================== #
 import functools
 
 import numpy as np
