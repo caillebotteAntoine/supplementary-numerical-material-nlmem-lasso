@@ -1,0 +1,33 @@
+
+# outputs and errors files
+*.out
+*.err
+
+# pycache exceptions
+*/__pycache__/*
+*.mypy_cache/
+*.pyc*
+*.pyc
+*ipynb
+
+*.csv
+*.nfs*
+*.coverage*
+*:Zone.Identifier
+
+# work personal folder
+work/
+
+# R specific
+*.RData
+*.Rproj*
+*.Rdata
+*.Rhistory
+
+# images
+*.png
+
+# model outputs
+*.pkl.gz
+*.zip
+*.rds

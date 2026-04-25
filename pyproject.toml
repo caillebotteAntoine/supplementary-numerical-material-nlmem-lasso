@@ -1,0 +1,27 @@
+[project]
+name = "supplementary-material-nlmem-lasso"
+version = "0.1.0"
+description = "This repository contains the real data-set and the code for generating exact copies of all the figures in the associated paper."
+authors = [
+    {name = "caillebotte",email = "caillebotte.antoine@gmail.com"}
+]
+dependencies = []
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sdg4varselect = {git = "https://github.com/caillebotteAntoine/sdg4varselect.git"}
+pandas = "^2.3.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+mypy = "^1.13.0"
+notebook = "^7.2.2"
+pytest = "^7.2.1"
+pytest-cov = "^4.0.0"
+pylint = "^3.3.1"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
