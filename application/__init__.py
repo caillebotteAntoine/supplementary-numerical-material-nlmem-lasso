@@ -1,8 +1,9 @@
 from pathlib import Path
 
 PACKAGE_ROOT = Path(__file__).resolve().parent
-DATA_DIR = PACKAGE_ROOT.parent / "application" / "data"
-RESULTS_DIR = PACKAGE_ROOT.parent / "results"
+APP_ROOT = PACKAGE_ROOT.parent / "application"
+DATA_DIR = APP_ROOT / "data"
+RESULTS_DIR = APP_ROOT / "results"
 
 DEBUG_FLAG = False
 
