@@ -14,19 +14,6 @@ from utils import get_selection_results, plot_selection_score
 
 true_theta = np.array([2, 5, 1, 0, 0, 4, 1, 8, -10, 20])
 
-param_cols = [
-    r"$\mu_1$",
-    r"$\mu_2$",
-    r"$\gamma^2_1$",
-    r"$\gamma^2_{1,2}$",
-    r"$\gamma^2_{2,1}$",
-    r"$\gamma^2_2$",
-    r"$\sigma^2$",
-    r"$\beta_{1}$",
-    r"$\beta_{2}$",
-    r"$\beta_{3}$",
-]
-
 
 def get_results(N, P, method=""):
     return get_selection_results(f"results/LMEM_N{N}J10P{P}{method}.csv", true_theta, 7)

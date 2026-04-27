@@ -1,19 +1,21 @@
+# ========================================== #
+# Generation of Figure 3 in the paper:
+# Left: estimates of the components β along the regularization path. Right: eBIC values
+# along the regularization path. In both plots, the x-axis represents the regularization parameter λ,
+# and the vertical dotted line indicates the selected value ˆ λ
+# ========================================== #
+
 import functools
 
-import numpy as np
 import jax.numpy as jnp
 import jax.random as jrd
 from jax import jit
 
-from datetime import timedelta
-
 import parametrization_cookbook.jax as pc
 
-from sdg4varselect._fit_results import _get_filename
 from sdg4varselect.models import AbstractMixedEffectsModel, AbstractHDModel
 import sdg4varselect.plotting as sdgplt
-from sdg4varselect.outputs import MultiGDResults, MultiRegularizationPath
-from sdg4varselect._criterion_bic_ebic import compute_metrics
+from sdg4varselect.outputs import MultiRegularizationPath
 import pandas as pd
 
 

@@ -1,9 +1,8 @@
 # ========================================== #
-# Generation of Figure 2 in the paper:
+# Generation of Figure 5 in the paper:
 #  Proportion of underselection (orange), correct support selection (green) and
 # overselection (blue) in the nonlinear logistic mixed-effects model using the procedure
-# NLMEM-LASSO for N ∈{100,200}, p ∈ {500,1000} and γ2
-# 2 ∈ {152,302,452}.
+# NLMEM-LASSO for N ∈{100,200}, p ∈ {500,1000} and γ2^2 ∈ {15^2,30^2,45^2}.
 # ========================================== #
 
 # pylint: skip-file

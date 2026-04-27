@@ -1,5 +1,5 @@
 # ========================================== #
-# Generation of Figure 2 in the paper:
+# Generation of Figure 4 in the paper:
 # Proportion of underselection (orange), correct support selection (green) and overselection
 # (blue) in the non linear logistic mixed-effects model using the procedure NLMEM-LASSOfor
 # N∈{100,200} and for p∈{500,1000,2000,6000}. The results are based on 100 simulated
