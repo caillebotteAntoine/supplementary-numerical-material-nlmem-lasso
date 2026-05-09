@@ -81,7 +81,7 @@ def do_plot_selected_snp(
         "Other": {"marker": "_", "c": "pink", "s": 60, "alpha": 0.9, "linewidths": 0.5},
         "Selected SNPs": {"marker": "x", "c": "black", "s": 100},
         "Heading QTLs": {"marker": "P", "c": "red", "edgecolor": "k", "s": 100},
-        "Senescence SNPs": {"marker": "P", "c": "#90EE90", "edgecolor": "k", "s": 100},
+        "Senescence QTLs": {"marker": "P", "c": "#90EE90", "edgecolor": "k", "s": 100},
         "Major flowering genes": {
             "marker": "*",
             "c": "green",
@@ -99,7 +99,7 @@ def do_plot_selected_snp(
     # order of plotting matters for visibility
     plot_items = [
         # (~(is_heading | is_new_heading | is_major | is_selected), "Other"),
-        (is_senescence, "Senescence SNPs"),
+        (is_senescence, "Senescence QTLs"),
         (is_heading, "Heading QTLs"),
         # (is_major, "Major flowering genes"),
         (is_selected, "Selected SNPs"),

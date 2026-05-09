@@ -51,15 +51,10 @@ for chr_name in all_chromosome[1:]:
     df = pd.read_csv(filepath.as_posix())
     dfs.append(df)
 
-# out_path = f"results/{folder}/csv/selected_snp_all_chr.csv"
-# pd.concat(dfs, ignore_index=True).to_csv(out_path, index=False, sep=";")
-
-
 out_path = RESULTS_DIR / "selected_snp_all_chr.csv"
 pd.concat(dfs, ignore_index=True).to_csv(out_path.as_posix(), index=False, sep=";")
 
 from application import APP_ROOT, RESULTS_DIR, DATA_DIR
-
 
 fig = do_plot_selected_snp(
     DATA_DIR / "carte_Axiom-TABW420k_WGAv1.csv",
@@ -68,4 +63,4 @@ fig = do_plot_selected_snp(
     DATA_DIR / "GenesMajeursFloraison.csv",
     RESULTS_DIR / "selected_snp_all_chr.csv",
 )
-# fig.savefig(f"results/{folder}/fig/selected_snp_all_chr_{folder}.png")
+fig.savefig("figure9.png")
