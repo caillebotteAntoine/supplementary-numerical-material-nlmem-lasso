@@ -1,4 +1,4 @@
-# Supplementary material for the NLMEM-LASSO procedure
+# Supplementary numerical material for the NLMEM-LASSO procedure
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Poetry](https://img.shields.io/badge/dependency%20manager-poetry-60A5FA.svg)](https://python-poetry.org/)
