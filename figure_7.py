@@ -129,7 +129,7 @@ def plot_score_both_para(results):
 
 # =======================================#
 
-results = pd.read_csv(f"results/figure_7_two_step_comparaison.csv", sep=";")
+results = pd.read_csv(f"simulation/results/figure_7_two_step_comparaison.csv", sep=";")
 results.loc[results["para_ind"] == 1, "para_ind_name"] = "First individual parameter"
 results.loc[results["para_ind"] == 2, "para_ind_name"] = "Second individual parameter"
 
